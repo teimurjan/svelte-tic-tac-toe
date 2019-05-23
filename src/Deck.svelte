@@ -54,13 +54,13 @@
 
   @media (max-width: 768px) {
     .cell {
-      height: 10vw;
-      width: 10vw;
-      font-size: 10vw;
+      height: 15vw;
+      width: 15vw;
+      font-size: 15vw;
     }
 
     .cell:after {
-      line-height: 8vw;
+      line-height: 13vw;
     }
   }
 </style>

@@ -4,18 +4,16 @@
 
 <style>
   .app {
-	height: 100vh;
-	background: #A53860;
-	color: #FCCD92;
+    height: 100vh;
+    background: #a53860;
+    color: #fccd92;
   }
 
   .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    padding-top: 10vh;
     max-width: 1024px;
-	height: 100%;
-	margin: 0 auto;
+    height: 100%;
+    margin: 0 auto;
   }
 </style>
 

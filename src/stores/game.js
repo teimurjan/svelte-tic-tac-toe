@@ -8,11 +8,13 @@ import { getWinner } from "../utils/winner";
 const getInitialDeck = () => range(DECK_SIZE).map(() => getInitialRow());
 const getInitialRow = () => range(DECK_SIZE).map(() => null);
 
-export const game = writable({
+const getInitialState = () => ({
   deck: getInitialDeck(),
   moves: 0,
   winner: null
 });
+
+export const game = writable(getInitialState());
 
 export const move = (rowI, colI) => {
   game.update(state => {
@@ -33,6 +35,8 @@ export const move = (rowI, colI) => {
     };
   });
 };
+
+export const reset = () => game.update(() => getInitialState());
 
 export const isDeckComplete = derived(
   game,
