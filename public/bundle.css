@@ -1,0 +1,5 @@
+.app.svelte-jgswin{height:100vh;background:#a53860;color:#fccd92}.container.svelte-jgswin{padding-top:10vh;max-width:1024px;height:100%;margin:0 auto}
+.game.svelte-1edr4yc{margin:0 auto;text-align:center}.game-title.svelte-1edr4yc{font-size:3vw;margin:0;padding-bottom:2rem}.game-play-again.svelte-1edr4yc{color:white;background:#450920;border:none;margin-top:2vw;padding:1vw 2vw;font-size:1.5vw}@media(max-width: 768px){.game-title.svelte-1edr4yc{font-size:10vw}.game-play-again.svelte-1edr4yc{background:#450920;border:none;margin-top:5vw;padding:3vw 5vw;font-size:5vw}}
+.deck.svelte-gzojcf{background:#450920;display:inline-block}.row.svelte-gzojcf{display:flex}.cell.svelte-gzojcf{height:5vw;width:5vw;text-align:center;font-size:5vw;border:5px solid #da627d;cursor:pointer}.cell.svelte-gzojcf:after{content:" ";display:block;line-height:4vw}.cell.cross.svelte-gzojcf::after{content:"x"}.cell.nought.svelte-gzojcf::after{content:"o"}@media(max-width: 768px){.cell.svelte-gzojcf{height:15vw;width:15vw;font-size:15vw}.cell.svelte-gzojcf:after{line-height:13vw}}
+
+/*# sourceMappingURL=bundle.css.map */
